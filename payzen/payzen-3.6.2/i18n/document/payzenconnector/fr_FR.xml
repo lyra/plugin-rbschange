@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.payzen.document.payzenconnector" lcid="fr_FR">
+  <include id="m.payment.document.connector"/>
+  
+  <key id="module_information">INFORMATIONS SUR LE MODULE</key>
+  <key id="payment_gateway_access">ACCÈS À LA PLATEFORME</key>
+  <key id="payment_page">PAGE DE PAIEMENT</key>
+  <key id="amount_restrictions">RESTRICTIONS sur le montant</key>
+  <key id="return_options">OPTIONS DE RETOUR</key>
+  
+  <key id="code">Code</key>
+  <key id="label">Libellé </key>
+  <key id="payzen_developped_by">Développé par</key>
+  <key id="payzen_cms_version">Testé avec</key>
+  <key id="payzen_contact">Courriel de contact</key>
+  <key id="payzen_contrib_version">Version du module</key>
+  <key id="payzen_platform_version">Version de la plateforme</key>
+  <key id="payzen_site_id">Identifiant du site</key>
+  <key id="payzen_key_test">Certificat en mode test</key>
+  <key id="payzen_key_prod">Certificat en mode production</key>
+  <key id="payzen_ctx_mode">Mode</key>
+  <key id="payzen_platform_url">Url de la plateforme</key>
+  <key id="payzen_language">Langue par défaut</key>
+  <key id="payzen_available_languages">Langues disponibles</key>
+  <key id="payzen_capture_delay">Délai avant remise en banque</key>
+  <key id="payzen_validation_mode">Mode de validation</key>
+  <key id="payzen_payment_cards">Types de cartes</key>
+  <key id="payzen_redirect_enabled">Redirection automatique</key>
+  <key id="payzen_redirect_success_timeout">Temps avant redirection (succès)</key>
+  <key id="payzen_redirect_success_message">Message avant redirection (succès)</key>
+  <key id="payzen_redirect_error_timeout">Temps avant redirection (échec)</key>
+  <key id="payzen_redirect_error_message">Message avant redirection (échec)</key>
+  <key id="payzen_return_mode">Mode de retour</key>
+  <key id="payzen_url_check">URL serveur</key>
+ 
+  <key id="language_fr">Français</key>
+  <key id="language_de">Allemand</key>
+  <key id="language_en">Anglais</key>
+  <key id="language_es">Espagnol</key>
+  <key id="language_zh">Chinois</key>
+  <key id="language_ja">Japonais</key>
+  <key id="language_it">Italien</key>
+  <key id="language_pt">Portugais</key>
+  <key id="language_nl">Néerlandais</key>
+  <key id="language_all">Toutes</key>
+  
+  <key id="validationmode_default">Par défaut</key>
+  <key id="validationmode_automatic">Automatique</key>
+  <key id="validationmode_manual">Manuel</key>
+  
+  <key id="redirectenabled_enabled">Activée</key>
+  <key id="redirectenabled_disabled">Désactivée</key>
+  
+  <key id="payment_cards_all">Toutes</key>
+  
+  <!-- Indications pour l'aide -->
+  <key id="payzen_site_id-help">Identifiant fourni par votre banque.</key>
+  <key id="payzen_key_test-help">Certificat fourni par PayZen (disponible sur l'outil de gestion de caisse). </key>
+  <key id="payzen_key_prod-help">Certificat fourni par PayZen (disponible sur l'outil de gestion de caisse après passage en production).</key>
+  <key id="payzen_ctx_mode-help">Mode de fonctionnement du module.</key>
+  <key id="payzen_platform_url-help">Url vers laquelle le client sera redirigé pour le paiement.</key>
+  <key id="payzen_language-help">Langue par défaut de la page de paiement.</key>
+  <key id="payzen_available_languages-help">Ne rien sélectionner pour utiliser la configuration de la plateforme.</key>
+  <key id="payzen_capture_delay-help">Le nombre de jours avant la remise en banque (paramètrable sur votre back office PayZen).</key>
+  <key id="payzen_validation_mode-help">En mode manuel, vous devrez confirmer les paiements dans l'outil de gestion de caisse.</key>
+  <key id="payzen_redirect_enabled-help">Si activée, le client sera redirigé automatiquement vers votre site à la fin du processus de paiement.</key>
+  <key id="payzen_redirect_success_timeout-help">Temps en secondes (0-300) avant que le client ne soit redirigé automatiquement vers votre site lorsque le paiement a réussi.</key>
+  <key id="payzen_redirect_success_message-help">Message affiché sur la plateforme de paiement avant redirection lorsque le paiement a réussi.</key>
+  <key id="payzen_redirect_error_timeout-help">Temps en secondes (0-300) avant que le client ne soit redirigé automatiquement vers votre site lorsque le paiement a échoué.</key>
+  <key id="payzen_redirect_error_message-help">Message affiché sur la plateforme de paiement avant redirection, lorsque le paiement a échoué.</key>
+  <key id="payzen_return_mode-help">Façon avec laquelle le résultat du paiement sera transmis lors du retour sur la boutique.</key>
+  <key id="payzen_url_check-help">Url serveur à copier dans l'outil de gestion de caisse </key>
+  <key id="payzen_payment_cards-help">Le(s) type(s) de carte pouvant être utilisé(s) pour le paiement.</key> 
+</i18n>

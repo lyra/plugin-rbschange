@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.payzen.document.payzenconnector" lcid="en_GB">
+  <include id="m.payment.document.connector"/>
+  
+  <key id="module_information">MODULE INFORMATION</key>
+  <key id="payment_gateway_access">PAYMENT GATEWAY ACCESS</key>
+  <key id="payment_page">PAYMENT PAGE</key>
+  <key id="amount_restrictions">AMOUNT RESTRICTIONS</key>
+  <key id="return_options">RETURN OPTIONS</key>
+  
+  <key id="code">Code</key>
+  <key id="label">Label </key>
+  <key id="payzen_developped_by">Developped by</key>
+  <key id="payzen_contact">Contact us</key>
+  <key id="payzen_cms_version">Tested with</key>
+  <key id="payzen_contrib_version">Module version</key>
+  <key id="payzen_platform_version">Platform version</key>
+  <key id="payzen_site_id">Site ID</key>
+  <key id="payzen_key_test">Certificate in test mode</key>
+  <key id="payzen_key_prod">Certificate in production mode</key>
+  <key id="payzen_ctx_mode">Mode</key>
+  <key id="payzen_platform_url">Platform Url</key>
+  <key id="payzen_language">Default language</key>
+  <key id="payzen_available_languages">Available languages</key>
+  <key id="payzen_capture_delay">Capture delay</key>
+  <key id="payzen_validation_mode">Validation mode</key>
+  <key id="payzen_payment_cards">Card types</key>
+  <key id="payzen_redirect_enabled">Automatic redirection</key>
+  <key id="payzen_redirect_success_timeout">Success redirection timeout</key>
+  <key id="payzen_redirect_success_message">Success redirection message</key>
+  <key id="payzen_redirect_error_timeout">Failure redirection timeout</key>
+  <key id="payzen_redirect_error_message">Failure redirection message</key>
+  <key id="payzen_return_mode">Return mode</key>
+  <key id="payzen_url_check">Check URL</key>
+  
+  <key id="language_fr">French</key>
+  <key id="language_de">German</key>
+  <key id="language_en">English</key>
+  <key id="language_es">Spanish</key>
+  <key id="language_zh">Chinese</key>
+  <key id="language_ja">Japanese</key>
+  <key id="language_it">Italien</key>
+  <key id="language_pt">Portuguese</key>
+  <key id="language_nl">Dutch</key>
+  <key id="language_all">All</key>
+  
+  <key id="validationmode_default">Default</key>
+  <key id="validationmode_automatic">Automatic</key>
+  <key id="validationmode_manual">Manual</key>
+  
+  <key id="payment_cards_all">All</key>
+  
+  <key id="redirectenabled_enabled">Enabled</key>
+  <key id="redirectenabled_disabled">Disabled</key>
+  
+  <!-- Help indications -->  
+  <key id="payzen_site_id-help">The identifier provided by your bank.</key>
+  <key id="payzen_key_test-help">Certificate provided by your bank for test (available on the back office PayZen).</key>
+  <key id="payzen_key_prod-help">Certificate provided by your bank  (available on the back office PayZen after test validation).</key>
+  <key id="payzen_ctx_mode-help">The context mode of this module.</key>
+  <key id="payzen_platform_url-help">Link to the payment platform.</key>
+  <key id="payzen_language-help">Default language on payment page.</key>
+  <key id="payzen_available_languages-help">Select none to use gateway configuration</key>
+  <key id="payzen_capture_delay-help">The number of days before the restoration bank (adjustable in your PayZen back office).</key>
+  <key id="payzen_validation_mode-help">If manual is selected, you will have to confirm payments manually in your bank backoffice.</key>
+  <key id="payzen_redirect_enabled-help">If enabled, the client is automatically forwarded to your site at the end of the payment process.</key>
+  <key id="payzen_redirect_success_timeout-help">Time in seconds (0-300) before the client is automatically forwarded to your site when the payment was successful.</key>
+  <key id="payzen_redirect_success_message-help">Message posted on the payment platform before forwarding when the payment was successful.</key>
+  <key id="payzen_redirect_error_timeout-help">Time in seconds (0-300) before the client is automatically forwarded to your site when the payment failed.</key>
+  <key id="payzen_redirect_error_message-help">Message posted on the payment platform before forwarding when the payment failed.</key>
+  <key id="payzen_return_mode-help">Method that will be used for transmitting the payment result from the payment gateway to your store.</key>
+  <key id="payzen_url_check-help">Check URL to copy in your bank back office.</key>
+  <key id="payzen_payment_cards-help">The card type(s) that can be used for the payment.</key> 
+</i18n>

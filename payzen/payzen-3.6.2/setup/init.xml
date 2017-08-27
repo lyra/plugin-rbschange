@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/list/persistentdocument/import/list_binding.xml" />
+	<binding fileName="modules/payzen/persistentdocument/import/payzen_binding.xml" />
+
+	<systemfolder module="list" relatedmodule="payzen">
+	
+		<staticlist listid="modules_payzen/languages" label="Languages" description="All supported languages">			
+			<staticitem label="m.payzen.document.payzenconnector.language_fr" value="fr" />
+			<staticitem label="m.payzen.document.payzenconnector.language_de" value="de" />
+			<staticitem label="m.payzen.document.payzenconnector.language_en" value="en" />
+			<staticitem label="m.payzen.document.payzenconnector.language_es" value="es" />
+			<staticitem label="m.payzen.document.payzenconnector.language_zh" value="zh" />
+			<staticitem label="m.payzen.document.payzenconnector.language_it" value="it" />
+			<staticitem label="m.payzen.document.payzenconnector.language_ja" value="ja" />
+			<staticitem label="m.payzen.document.payzenconnector.language_pt" value="pt" />
+			<staticitem label="m.payzen.document.payzenconnector.language_nl" value="nl" />
+		</staticlist>
+	
+	  	<staticlist listid="modules_payzen/ctxmode" label="Context modes">			
+			<staticitem label="TEST" value="TEST" />
+			<staticitem label="PRODUCTION" value="PRODUCTION" />
+		</staticlist> 
+		
+		<staticlist listid="modules_payzen/validationmode" label="Validation Mode">			
+			<staticitem label="m.payzen.document.payzenconnector.validationmode_automatic" value="0" />
+			<staticitem label="m.payzen.document.payzenconnector.validationmode_manual" value="1" />
+		</staticlist>
+		
+		<staticlist listid="modules_payzen/redirectenabled" label="Redirection enabling options">			
+			<staticitem label="m.payzen.document.payzenconnector.redirectenabled_disabled" value="0" />
+			<staticitem label="m.payzen.document.payzenconnector.redirectenabled_enabled" value="1" />
+		</staticlist>
+		
+		<staticlist listid="modules_payzen/returnoption" label="Return options">			
+			<staticitem label="GET" value="GET" />
+			<staticitem label="POST" value="POST" />
+		</staticlist> 
+		
+		<staticlist listid="modules_payzen/cartes" label="Payment card types">			
+			<staticitem label="Carte Bleue" value="CB" />
+			<staticitem label="Visa" value="VISA" />
+			<staticitem label="MasterCard" value="MASTERCARD" />
+			<staticitem label="Maestro" value="MAESTRO" />
+			<staticitem label="E-Carte bleue" value="E_CARTEBLEUE" />
+			<staticitem label="American Express" value="AMEX" />
+			<staticitem label="Visa Electron" value="VISA_ELECTRON" />
+		</staticlist>
+		
+	</systemfolder>
+</script>	

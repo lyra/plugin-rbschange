@@ -1,0 +1,6 @@
+<h1 change:h="">${trans:m.payzen.fo.payzen-title,ucf}</h1>
+<div class="normal">${connector/getHTMLPayment}</div>
+<tal:block tal:condition="order/getArchive">
+	<span>${trans:m.order.frontoffice.orderlist-bill,ucf,lab}</span>
+	<a change:download="document order/getArchive">${trans:m.order.frontoffice.orderlist-bill,ucf}</a>
+</tal:block>
