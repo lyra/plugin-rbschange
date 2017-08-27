@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panel>
+	<section labeli18n="m.payzen.document.payzenconnector.module_information">
+	    <field name="label" />
+	    <field name="code" />
+		<field name="payzen_developped_by" disabled="disabled" />
+		<field name="payzen_contact" disabled="disabled"/>
+		<field name="payzen_contrib_version" disabled="disabled"/>
+		<field name="payzen_platform_version" disabled="disabled"/>
+		<field name="payzen_cms_version" disabled="disabled"/>		
+	</section> 
+	
+	<section labeli18n="m.payzen.document.payzenconnector.payment_gateway_access" class="toggle">
+		<field name="payzen_site_id" />
+		<field name="payzen_key_test"  />
+		<field name="payzen_key_prod" />
+		<field name="payzen_ctx_mode" type="dropdownlist" listid="modules_payzen/ctxmode" />
+		<field name="payzen_platform_url"  />
+	</section>
+	
+	<section labeli18n="m.payzen.document.payzenconnector.payment_page" class="toggle" hidden="false">
+		<field name="payzen_language" type="dropdownlist" listid="modules_payzen/languages" />
+		<field name="payzen_available_languages" type="multiplelist" listid="modules_payzen/languages" emptylabel="${transui:m.payzen.document.payzenconnector.language_all}" />
+		<field name="payzen_capture_delay" size="10" />
+		<field name="payzen_validation_mode" type="dropdownlist" listid="modules_payzen/validationmode" emptylabel="${transui:m.payzen.document.payzenconnector.validationmode_default}" />
+		<field name="payzen_payment_cards" type="multiplelist" listid="modules_payzen/cartes" emptylabel="${transui:m.payzen.document.payzenconnector.payment_cards_all}" />
+	</section>
+	
+   <section labeli18n="m.payzen.document.payzenconnector.return_options" class="toggle" hidden="false">
+		<field name="payzen_redirect_enabled" type="dropdownlist" listid="modules_payzen/redirectenabled" emptylabel="" />
+		<field name="payzen_redirect_success_timeout" />
+		<field name="payzen_redirect_error_timeout"  />
+		<field name="payzen_redirect_success_message"  />
+		<field name="payzen_redirect_error_message" />
+		<field name="payzen_return_mode" type="dropdownlist" listid="modules_payzen/returnoption" />
+		<field name="payzen_url_check"/>
+	</section>
+</panel>

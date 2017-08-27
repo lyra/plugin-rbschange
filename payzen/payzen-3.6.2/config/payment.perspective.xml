@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<perspective>
+	<models>
+		<updatemodel name="modules_generic/rootfolder">
+			<addchild model="modules_payzen/payzenconnector" />
+			<addcontextaction name="createPayzenconnector" group="create_" before="createFolder"/>
+			<adddrop model="modules_payzen/payzenconnector" action="move" />
+		</updatemodel>
+		
+		<updatemodel name="modules_generic/folder">
+			<addchild model="modules_payzen/payzenconnector" />
+			<addcontextaction name="createPayzenconnector" group="create_" before="createFolder" />
+			<adddrop model="modules_payzen/payzenconnector" action="move" />	
+		</updatemodel>
+		
+		<model name="modules_payzen/payzenconnector">
+			<contextactions>
+				<contextaction name="edit"/>
+				<contextaction name="deactivated"/>
+				<contextaction name="reactivate"/>
+				<contextaction name="delete"/>
+			</contextactions>
+		</model>
+	</models>
+	
+	<actions>
+		<action name="createPayzenconnector" single="true" permission="Insert_payzenconnector" 
+			labeli18n="m.payzen.bo.actions.createPayzenconnector"/>
+	</actions>
+</perspective>

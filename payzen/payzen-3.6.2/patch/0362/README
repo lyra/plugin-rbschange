@@ -1,0 +1,7 @@
+Version: 3.6.2
+
+/!\ APPLY THIS PATCH ONLY if you want to uninstall PayZen payment module.
+
+- This patch removes all PayZen documents in database 
+- This patch DON'T remove orders paid with PayZen payment module
+- This patch DON'T remove filters associated to PayZen payment module connectors

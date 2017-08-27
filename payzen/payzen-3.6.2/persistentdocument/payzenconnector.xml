@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/3.5.xsd" model-version="3.5" has-url="false" use-rewrite-url="false" extend="modules_payment/connector" backoffice-indexable="true">
+  <properties>
+    <add name="label" type="String"  min-occurs ="1" default-value="Paiement par CB avec PayZen"/>
+    <add name="code" type="String" min-occurs ="1" default-value="PayZen"/>
+    <add name="payzen_developped_by" type="String" default-value="Lyra Network"/>
+    <add name="payzen_contact" type="String" default-value="support@payzen.eu" />
+    <add name="payzen_contrib_version" type="String" default-value="1.0a" />
+    <add name="payzen_platform_version" type="String" default-value="V2"/>
+    <add name="payzen_cms_version" type="String" default-value="RBSChange3.6.2_1.0a"/>
+   
+    <add name="payzen_site_id" min-occurs ="1" type="String" db-size="8"  default-value="12345678"/>
+    <add name="payzen_key_test" min-occurs ="1" type="String" db-size="16" default-value="1111111111111111" />
+    <add name="payzen_key_prod" min-occurs ="1" type="String" db-size="16" default-value= "2222222222222222"/>
+    <add name="payzen_ctx_mode" min-occurs ="1" type="String" default-value="TEST"/>
+    <add name="payzen_platform_url" min-occurs ="1" type="String" default-value="https://secure.payzen.eu/vads-payment/"/>
+    
+    <add name="payzen_language" type="String" default-value="fr"/>
+    <add name="payzen_available_languages" type="String" />
+    <add name="payzen_capture_delay" type="Integer" db-size="3" />
+    <add name="payzen_validation_mode" type="String" default-value=""/>
+    <add name="payzen_payment_cards" type="String" />
+   
+    <add name="payzen_redirect_enabled" min-occurs="1" type="String" default-value="0" />
+    <add name="payzen_redirect_success_timeout" type="Integer" db-size="3" default-value="5" />
+    <add name="payzen_redirect_success_message" type="String" default-value="Votre paiement a bien été pris en compte, vous allez être redirigé dans quelques instants."/>
+    <add name="payzen_redirect_error_timeout" type="Integer" db-size="3" default-value="5"/>
+    <add name="payzen_redirect_error_message" type="String" default-value="Une erreur est survenue, vous allez être redirigé dans quelques instants."/>
+    <add name="payzen_return_mode" min-occurs="1" type="String" default-value="GET"/>
+    <add name="payzen_url_check" type="String" default-value="URL_DE_VOTRE_SITE/payment/payzenNotify.php" />
+  </properties>
+</document>
